@@ -1,3 +1,5 @@
+export const PLACEHOLDER_IMAGE_SRC = "/placeholder.svg";
+
 export type Property = {
   id: string;
   title: string;
@@ -15,7 +17,7 @@ export const PROPERTIES: Property[] = [
     areaSqm: 280,
     priceThb: 18_500_000,
     location: "Пхукет, Ката",
-    imageSrc: "/properties/villa_by_Kata_beach.jpg",
+    imageSrc: PLACEHOLDER_IMAGE_SRC,
     imageAlt: "Вилла с бассейном у тропического побережья",
   },
   {
@@ -24,7 +26,7 @@ export const PROPERTIES: Property[] = [
     areaSqm: 95,
     priceThb: 6_800_000,
     location: "Паттайя, Джомтьен",
-    imageSrc: "/properties/apartment_with_sea_view.jpg",
+    imageSrc: PLACEHOLDER_IMAGE_SRC,
     imageAlt: "Светлая гостиная апартаментов с панорамным окном",
   },
   {
@@ -33,7 +35,7 @@ export const PROPERTIES: Property[] = [
     areaSqm: 160,
     priceThb: 4_250_000,
     location: "Бангкок, Сукхумвит",
-    imageSrc: "/properties/townhouse_green_area.jpg",
+    imageSrc: PLACEHOLDER_IMAGE_SRC,
     imageAlt: "Современный таунхаус с зелёным двором",
   },
   {
@@ -42,7 +44,7 @@ export const PROPERTIES: Property[] = [
     areaSqm: 42,
     priceThb: 2_150_000,
     location: "Чиангмай, старый город",
-    imageSrc: "/properties/studio_in the_center_of_Chiang_Mai.jpg",
+    imageSrc: PLACEHOLDER_IMAGE_SRC,
     imageAlt: "Компактная студия с деревянной мебелью",
   },
   {
@@ -51,7 +53,7 @@ export const PROPERTIES: Property[] = [
     areaSqm: 520,
     priceThb: 32_000_000,
     location: "Самуи, Чавенг",
-    imageSrc: "/properties/boutique_hotel_with_8_rooms.jpg",
+    imageSrc: PLACEHOLDER_IMAGE_SRC,
     imageAlt: "Бутик-отель с бассейном среди пальм",
   },
   {
@@ -60,7 +62,7 @@ export const PROPERTIES: Property[] = [
     areaSqm: 210,
     priceThb: 24_700_000,
     location: "Бангкок, Силом",
-    imageSrc: "/properties/penthouse_with_terrace.jpg",
+    imageSrc: PLACEHOLDER_IMAGE_SRC,
     imageAlt: "Пентхаус с просторной террасой и видом на город",
   },
   {
@@ -69,7 +71,7 @@ export const PROPERTIES: Property[] = [
     areaSqm: 130,
     priceThb: 5_900_000,
     location: "Краби, Ао Нанг",
-    imageSrc: "/properties/tropical_garden_bungalow.jpg",
+    imageSrc: PLACEHOLDER_IMAGE_SRC,
     imageAlt: "Бунгало в окружении тропической зелени",
   },
   {
@@ -78,7 +80,7 @@ export const PROPERTIES: Property[] = [
     areaSqm: 185,
     priceThb: 11_200_000,
     location: "Пхукет, Раваи",
-    imageSrc: "/properties/duplex_marina.jpg",
+    imageSrc: PLACEHOLDER_IMAGE_SRC,
     imageAlt: "Современный дуплекс у воды",
   },
 ];
